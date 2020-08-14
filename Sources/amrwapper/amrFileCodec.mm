@@ -385,7 +385,7 @@ int DecodeAMRFileToWAVEFile(const char* pchAMRFileName, const char* pchWAVEFilen
 	return nFrameCount;
 }
 
-int isMP3File(const char *filePath){
+int isMP3FileC(const char *filePath){
     FILE* fpamr = NULL;
     char magic[8];
     fpamr = fopen(filePath, "rb");
@@ -401,7 +401,7 @@ int isMP3File(const char *filePath){
 }
 
 
-int isAMRFile(const char *filePath){
+int isAMRFileC(const char *filePath){
     FILE* fpamr = NULL;
     char magic[8];
     fpamr = fopen(filePath, "rb");
