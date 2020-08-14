@@ -48,7 +48,7 @@ public class TSVoiceConverter {
     */
     public class func isAMRFile(_ filePath: String) -> Bool {
         let result = String.init(filePath)
-        return isAMRFileC(result)
+        return (isAMRFileC(result) == 1)
     }
 
     /**
@@ -60,7 +60,7 @@ public class TSVoiceConverter {
     */
     public class func isMP3File(_ filePath: String) -> Bool {
         let result = String.init(filePath)
-        return isMP3FileC(result)
+        return (isMP3FileC(result) == 1)
     }
 }
 
