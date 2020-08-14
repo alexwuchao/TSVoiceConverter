@@ -93,7 +93,7 @@ extern "C" {
 #ifdef __cplusplus
 extern "C" {
 #endif
-    int isAMRFile(const char *filePath);
+    int isAMRFileC(const char *filePath);
 #ifdef __cplusplus
 }
 #endif
@@ -103,7 +103,7 @@ extern "C" {
 #ifdef __cplusplus
 extern "C" {
 #endif
-    int isMP3File(const char *filePath);
+    int isMP3FileC(const char *filePath);
 #ifdef __cplusplus
 }
 #endif
